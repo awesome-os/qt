@@ -1,0 +1,20 @@
+name: Awesome-OS Qt 6 CAS CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install zstd
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq zstd
+      - name: Run @awesome-os/qt CAS & CLI tests
+        run: node --test test/qt-cas.test.mts
