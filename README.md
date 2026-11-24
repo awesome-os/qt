@@ -2,6 +2,27 @@
 
 Zero-account, zero-installer **Qt 6 (`qtbase`)** SDK & shared runtime hydrated once per machine from [`awesome-os/b8g-ghost @ cas-v1`](https://github.com/awesome-os/b8g-ghost) (Keep-Last-5) for **`holo-compiler`**, **`ghost-cpp`**, and C++ desktop apps.
 
+## Quick Install & Usage
+
+### Install via `pnpm` (or release tarball)
+
+```powershell
+pnpm add github:awesome-os/qt
+```
+
+Or download the latest SHA-256 verified archive from [`Releases`](https://github.com/awesome-os/qt/releases/latest).
+
+### Usage & Verification
+
+```powershell
+# Resolve/hydrate Qt 6 qtbase via CLI or inspect env exports
+node src/cli.mts --dry-run
+node src/cli.mts env --pwsh
+
+# Verify locally (Node.js 22+)
+node --test
+```
+
 ## Why `@awesome-os/qt`?
 
 - **Zero Qt Account Login:** No account creation, no license-gate wizard, no interactive installer prompts.
