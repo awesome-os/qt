@@ -86,3 +86,13 @@ Use `qt env --json` or `await hydrateQt()` to pass `includeDir` (`-I`), `libDir`
 
 - Hydrator & CLI (`src/`, `test/`): **MIT**
 - Hydrated Qt 6 (`qtbase`) SDK & shared runtime: **LGPL-3.0-or-later**
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/qt@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://node/qt?from=repository://github.com/awesome-os/qt@main"
+```
