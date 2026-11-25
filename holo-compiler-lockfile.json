@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/qt",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/qt/qt-v0.2.0.tar.zst",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "4ca4cb7a6141d8d6a178f29f7e789d0c5ee9270aa47e70826a2fd5c2ff09651497393c2f9497908fa785dc7cd8271a60a64b4298fb6630967dfcf96d583779fa",
+      "size": 9730,
+      "executable": false,
+      "blob": "v11/files/4c/4ca4cb7a6141d8d6a178f29f7e789d0c5ee9270aa47e70826a2fd5c2ff09651497393c2f9497908fa785dc7cd8271a60a64b4298fb6630967dfcf96d583779fa",
+      "url": "https://github.com/awesome-os/qt/releases/download/v0.2.0/qt-v0.2.0.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/qt/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "9a6b5a8db09aa2aa6eaf99e71812cd536ef592f732382074723351f2b4206cfd3a3d27219da56481288a01ac35dd51cacabd48dc0cfe58f298db75a88955ff53",
+      "size": 84,
+      "executable": false,
+      "blob": "v11/files/9a/9a6b5a8db09aa2aa6eaf99e71812cd536ef592f732382074723351f2b4206cfd3a3d27219da56481288a01ac35dd51cacabd48dc0cfe58f298db75a88955ff53",
+      "url": "https://github.com/awesome-os/qt/releases/download/v0.2.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/qt/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "5eb9cbd1f6f3cb58ca7a2baf515873c612ace0d40aa9f650b6b5fd5dabbc44fc87643c55c94f18595a82288823e6516b5d6d5520b1fe7f32a4e6553ca9fdd4a4",
+      "size": 148,
+      "executable": false,
+      "blob": "v11/files/5e/5eb9cbd1f6f3cb58ca7a2baf515873c612ace0d40aa9f650b6b5fd5dabbc44fc87643c55c94f18595a82288823e6516b5d6d5520b1fe7f32a4e6553ca9fdd4a4",
+      "url": "https://github.com/awesome-os/qt/releases/download/v0.2.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
