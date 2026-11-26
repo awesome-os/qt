@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into the unified Holo v11 monorepo at https://github.com/awesome-os/awesome-os (all existing v11 CAS release assets remain downloadable).
+
 # `@awesome-os/qt`
 
 Zero-account, zero-installer **Qt 6 (`qtbase`)** SDK & shared runtime hydrated once per machine from [`awesome-os/b8g-ghost @ cas-v1`](https://github.com/awesome-os/b8g-ghost) (Keep-Last-5) for **`holo-compiler`**, **`ghost-cpp`**, and C++ desktop apps.
